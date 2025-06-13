@@ -2,7 +2,10 @@ import React from "react";
 
 const Location = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-distillery-copper to-distillery-oak">
+    <section
+      id="location"
+      className="py-20 bg-gradient-to-br from-distillery-copper to-distillery-oak"
+    >
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-playfair text-5xl font-bold text-white mb-12">

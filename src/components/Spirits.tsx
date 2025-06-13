@@ -29,7 +29,7 @@ const spirits = [
 
 const Spirits = () => {
   return (
-    <section className="py-20 bg-distillery-dark">
+    <section id="spirits" className="py-20 bg-distillery-dark">
       <div className="container mx-auto px-6">
         <h2 className="font-playfair text-5xl font-bold text-distillery-gold text-center mb-16">
           Наши дистилляты

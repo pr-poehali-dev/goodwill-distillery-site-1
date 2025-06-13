@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-distillery-dark via-distillery-oak to-black">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-distillery-dark via-distillery-oak to-black"
+    >
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{
